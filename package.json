@@ -1,0 +1,32 @@
+{
+  "name": "manic-studio",
+  "version": "1.0.0",
+  "description": "fullstack JS Angular Node Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "server": "nodemon index",
+    "client-install": "npm install --prefix MS-client",
+    "client": "npm run start --prefix MS-client",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "keywords": [
+    "JS",
+    "Angular"
+  ],
+  "author": "denis bykov",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^6.0.9",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "passport": "^0.5.0",
+    "passport-jwt": "^4.0.0"
+  }
+}
