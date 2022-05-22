@@ -3,4 +3,6 @@ config/keys.dev.js
 dist
 .idea
 vscode
+MS-client/dist
+MS-client/node_modules
 
